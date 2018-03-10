@@ -11,8 +11,7 @@
     <title>选择图书</title>
 </head>
 <body>
-<%--action="/BookSelect.do"--%>
-<form method="post">
+<form method="post" action="/BookSelect.do">
     <label>请选择图书:</label>
     <select name="bookType">
         <option value="html">HTML</option>
